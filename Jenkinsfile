@@ -5,7 +5,7 @@ pipeline {
         // Your Docker Hub credentials
         DOCKER_USER = 'bhavzzzzzz' 
         IMAGE_NAME = 'imt2023050'
-        REGISTRY_CRED_ID = 'docker-hub-login' 
+        REGISTRY_CRED_ID = 'docker_hub' 
     }
 
     stages {
