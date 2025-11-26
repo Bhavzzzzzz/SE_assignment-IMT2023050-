@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Your Docker Hub credentials
         DOCKER_USER = 'bhavzzzzzz' 
-        IMAGE_NAME = 'bhavzzzzzz/imt2023050'
+        IMAGE_NAME = 'imt2023050'
         REGISTRY_CRED_ID = 'docker-hub-login' 
     }
 
