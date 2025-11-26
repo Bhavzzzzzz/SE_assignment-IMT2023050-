@@ -4,7 +4,7 @@ pipeline {
     environment {
         // CHANGE THIS to your actual Docker Hub username
         DOCKER_USER = 'bhavzzzzzz' 
-        IMAGE_NAME = 'java-calculator'
+        IMAGE_NAME = 'bhavzzzzzz/imt2023050'
         // This matches the ID you created in Step 1
         REGISTRY_CRED_ID = 'docker-hub-login' 
     }
