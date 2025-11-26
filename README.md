@@ -44,3 +44,27 @@ Notes
 License
 -------
 MIT
+
+Docker build & run
+------------------
+
+Build the image locally:
+```bash
+docker build -t youruser/your-repo:latest .
+```
+
+Run the CLI:
+```bash
+docker run --rm -it youruser/your-repo:latest
+```
+
+Run the tests (runs the `AppTest` entrypoint):
+```bash
+docker run --rm youruser/your-repo:latest AppTest
+```
+
+To push to Docker Hub (requires `docker login` / Jenkins credentials), tag and push:
+```bash
+docker tag youruser/your-repo:latest youruser/your-repo:1.0.0
+docker push youruser/your-repo:1.0.0
+```
